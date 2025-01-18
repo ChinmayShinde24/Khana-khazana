@@ -1,0 +1,13 @@
+.no-orders-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adjust as per the desired vertical height */
+  text-align: center;
+}
+
+.not-found-img {
+  max-width: 80%;
+  max-height: 400px;
+  opacity: 0.8;
+  object-fit: contain;
+}

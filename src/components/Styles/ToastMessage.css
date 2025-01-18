@@ -1,0 +1,17 @@
+.toast-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
+  display: flex;
+  justify-content: center; /* Center the toast horizontally */
+  align-items: center; /* Center the toast vertically */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 9999; /* Bring to front */
+}
+
+.toast {
+  width: 80%; /* Make toast element take up 80% of the width */
+  max-width: 600px; /* Set a max-width for better UX */
+}

@@ -1,0 +1,29 @@
+.features {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  transition: 0.2s ease-in-out;
+}
+
+.feature img {
+  width: 72px;
+}
+
+.feature-content {
+  margin-left: 12px;
+}
+
+.feature:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+}

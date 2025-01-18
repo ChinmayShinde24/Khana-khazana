@@ -1,0 +1,260 @@
+{
+  "categories": [
+    {
+      "id": "starters",
+      "name": "Starters",
+      "description": "Delicious appetizers to start your meal",
+      "image": "https://path-to-starter-category-image.jpg",
+      "items": [
+        {
+          "id": "vadapav",
+          "name": "Vada Pav",
+          "description": "A spicy potato filling sandwiched in a soft bun.",
+          "price": 30,
+          "type": "veg",
+          "image": "https://ministryofcurry.com/wp-content/uploads/2024/06/vada-pav-3.jpg"
+        },
+        {
+          "id": "paneer-tikka",
+          "name": "Paneer Tikka",
+          "description": "Marinated cottage cheese cubes grilled to perfection.",
+          "price": 150,
+          "type": "veg",
+          "image": "https://sharethespice.com/wp-content/uploads/2024/02/Paneer-Tikka-Featured.jpg"
+        },
+        {
+          "id": "spring-rolls",
+          "name": "Spring Rolls",
+          "description": "Crispy rolls filled with spiced veggies.",
+          "price": 120,
+          "type": "veg",
+          "image": "https://www.elmundoeats.com/wp-content/uploads/2024/02/Crispy-spring-rolls.jpg"
+        },
+        {
+          "id": "chicken-tikka",
+          "name": "Chicken Tikka",
+          "description": "Juicy grilled chicken chunks marinated in flavorful spices.",
+          "price": 180,
+          "type": "non-veg",
+          "image": "https://www.whiskaffair.com/wp-content/uploads/2020/06/Chicken-Tikka-2-3.jpg"
+        },
+        {
+          "id": "hakka-noodles",
+          "name": "Hakka Noodles",
+          "description": "Stir-fried noodles with veggies, a classic Chinese starter.",
+          "price": 110,
+          "type": "veg",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHI6vHr6V8yiVoYNezh3ViC4ZcCD7U_0kuuw&s"
+        }
+      ]
+    },
+    {
+      "id": "main-course",
+      "name": "Main Course",
+      "description": "Hearty and satisfying dishes that form the core of your meal",
+      "image": "path-to-main-course-category-image.jpg",
+      "items": [
+        {
+          "id": "butter-chicken",
+          "name": "Butter Chicken",
+          "description": "Tender chicken cooked in creamy tomato-based gravy.",
+          "price": 250,
+          "type": "non-veg",
+          "image": "https://images.immediate.co.uk/production/volatile/sites/30/2021/02/butter-chicken-ac2ff98.jpg"
+        },
+        {
+          "id": "dal-tadka",
+          "name": "Dal Tadka",
+          "description": "Yellow lentils cooked with tempering of cumin and garlic.",
+          "price": 100,
+          "type": "veg",
+          "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/06/dal-tadka-recipe-1-500x375.jpg"
+        },
+        {
+          "id": "methi-thepla",
+          "name": "Methi Thepla",
+          "description": "A traditional Gujarati flatbread made with fenugreek leaves.",
+          "price": 70,
+          "type": "veg",
+          "image": "https://pipingpotcurry.com/wp-content/uploads/2023/03/methi-thepla-recipe.jpg"
+        },
+        {
+          "id": "chicken-curry",
+          "name": "Chicken Curry",
+          "description": "Spicy chicken cooked with a medley of Indian spices.",
+          "price": 220,
+          "type": "non-veg",
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixBzD1vZRp-azDaPaB52M_LVh_c8D2j37hYMxPCrkIkNCjBzilg_q6ELVJx41X7nfOPkS-PAKk6ZWeqvhz5MeKBn7UPeUHDvTiqdx2wDcLFP8b6W3dKT8MsymzxlCdU-xNDXX-YcJ_558/s2048/Malabar+chicken+curry+16.JPG"
+        },
+        {
+          "id": "paneer-butter-masala",
+          "name": "Paneer Butter Masala",
+          "description": "Cottage cheese cooked in creamy butter gravy.",
+          "price": 180,
+          "type": "veg",
+          "image": "https://images.squarespace-cdn.com/content/v1/603bc7becf34a07d765fc033/5e7787d2-2e40-46a0-81ac-0f450f53364c/12B0EA0E-7E73-486B-9BAF-2B04FEF9849B.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "description": "Popular Chinese dishes to spice up your meal",
+      "image": "path-to-chinese-category-image.jpg",
+      "items": [
+        {
+          "id": "manchow-soup",
+          "name": "Manchow Soup",
+          "description": "Spicy vegetable soup with crispy fried noodles.",
+          "price": 80,
+          "type": "veg",
+          "image": "path-to-manchow-soup-image.jpg"
+        },
+        {
+          "id": "fried-rice",
+          "name": "Fried Rice",
+          "description": "Stir-fried rice with vegetables and soy sauce.",
+          "price": 150,
+          "type": "veg",
+          "image": "path-to-fried-rice-image.jpg"
+        },
+        {
+          "id": "chicken-chop-suey",
+          "name": "Chicken Chop Suey",
+          "description": "Stir-fried chicken and vegetables in tangy sauce.",
+          "price": 180,
+          "type": "non-veg",
+          "image": "path-to-chicken-chop-suey-image.jpg"
+        },
+        {
+          "id": "spring-rolls-chinese",
+          "name": "Chinese Spring Rolls",
+          "description": "Crunchy rolls with Chinese vegetables filling.",
+          "price": 100,
+          "type": "veg",
+          "image": "path-to-chinese-spring-rolls-image.jpg"
+        },
+        {
+          "id": "chili-chicken",
+          "name": "Chili Chicken",
+          "description": "Boneless chicken cooked in spicy tangy sauce.",
+          "price": 200,
+          "type": "non-veg",
+          "image": "path-to-chili-chicken-image.jpg"
+        }
+      ]
+    },
+    {
+      "id": "south-indian",
+      "name": "South Indian",
+      "description": "Traditional dishes from the southern region of India",
+      "image": "path-to-south-indian-category-image.jpg",
+      "items": [
+        {
+          "id": "dosa",
+          "name": "Dosa",
+          "description": "Crispy rice pancake, served with chutney and sambar.",
+          "price": 90,
+          "type": "veg",
+          "image": "path-to-dosa-image.jpg"
+        },
+        {
+          "id": "idli-sambar",
+          "name": "Idli Sambar",
+          "description": "Steamed rice cakes served with lentil soup.",
+          "price": 70,
+          "type": "veg",
+          "image": "path-to-idli-sambar-image.jpg"
+        },
+        {
+          "id": "veg-biryani",
+          "name": "Vegetable Biryani",
+          "description": "Spicy rice dish with mixed vegetables.",
+          "price": 140,
+          "type": "veg",
+          "image": "path-to-veg-biryani-image.jpg"
+        },
+        {
+          "id": "chicken-curry-rice",
+          "name": "Chicken Curry Rice",
+          "description": "Spicy chicken curry served with steamed rice.",
+          "price": 220,
+          "type": "non-veg",
+          "image": "path-to-chicken-curry-rice-image.jpg"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweets to end your meal on a delicious note",
+      "image": "path-to-dessert-category-image.jpg",
+      "items": [
+        {
+          "id": "gulab-jamun",
+          "name": "Gulab Jamun",
+          "description": "Deep fried dough balls soaked in sweet syrup.",
+          "price": 50,
+          "type": "veg",
+          "image": "path-to-gulab-jamun-image.jpg"
+        },
+        {
+          "id": "rasgulla",
+          "name": "Rasgulla",
+          "description": "Soft and spongy Bengali dessert soaked in sugar syrup.",
+          "price": 40,
+          "type": "veg",
+          "image": "path-to-rasgulla-image.jpg"
+        },
+        {
+          "id": "ice-cream",
+          "name": "Ice Cream",
+          "description": "Chilled dessert available in multiple flavors.",
+          "price": 60,
+          "type": "veg",
+          "image": "path-to-ice-cream-image.jpg"
+        },
+        {
+          "id": "gajar-ka-halwa",
+          "name": "Gajar Ka Halwa",
+          "description": "Sweet carrot pudding garnished with dry fruits.",
+          "price": 80,
+          "type": "veg",
+          "image": "path-to-gajar-ka-halwa-image.jpg"
+        }
+      ]
+    },
+    {
+      "id": "biryani",
+      "name": "Biryani",
+      "description": "Delicious, aromatic rice dish prepared with mixed spices",
+      "image": "path-to-biryani-category-image.jpg",
+      "items": [
+        {
+          "id": "veg-biryani",
+          "name": "Veg Biryani",
+          "description": "Aromatic rice cooked with seasonal vegetables and spices.",
+          "price": 180,
+          "type": "veg",
+          "image": "path-to-veg-biryani-image.jpg"
+        },
+        {
+          "id": "chicken-biryani",
+          "name": "Chicken Biryani",
+          "description": "Spiced rice with tender chicken pieces.",
+          "price": 250,
+          "type": "non-veg",
+          "image": "path-to-chicken-biryani-image.jpg"
+        },
+        {
+          "id": "mutton-biryani",
+          "name": "Mutton Biryani",
+          "description": "Flavorful rice dish with tender mutton cooked in spices.",
+          "price": 300,
+          "type": "non-veg",
+          "image": "path-to-mutton-biryani-image.jpg"
+        }
+      ]
+    }
+  ]
+}

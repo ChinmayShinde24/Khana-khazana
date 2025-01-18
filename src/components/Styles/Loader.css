@@ -1,0 +1,33 @@
+/* Loader Styling */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure loader is always on top */
+}
+
+/* Empty Cart Styling */
+.empty-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.empty-cart-img {
+  max-width: 300px;
+  height: auto;
+  opacity: 0.8;
+  transition: transform 0.3s ease-in-out;
+}
+
+.empty-cart-img:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
