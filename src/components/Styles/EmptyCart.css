@@ -1,7 +1,7 @@
 .no-orders-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* Adjust as per the desired vertical height */
+  align-items: center; 
   text-align: center;
 }
 

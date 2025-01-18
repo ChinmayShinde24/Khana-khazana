@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+}
+@media (max-width: 420px) {
+  .co-title {
+    font-size: 16px;
+  }
+
+  .navbar-toggler-icon {
+    width: 10px; 
+    height: 20px; 
+  }
+
+  .navbar-toggler {
+    font-size: 10px;
+  }
+}

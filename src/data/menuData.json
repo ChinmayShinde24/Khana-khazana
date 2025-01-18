@@ -108,7 +108,7 @@
           "description": "Spicy vegetable soup with crispy fried noodles.",
           "price": 80,
           "type": "veg",
-          "image": "path-to-manchow-soup-image.jpg"
+          "image": "data:image/jpeg;base64,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"
         },
         {
           "id": "fried-rice",
@@ -116,7 +116,7 @@
           "description": "Stir-fried rice with vegetables and soy sauce.",
           "price": 150,
           "type": "veg",
-          "image": "path-to-fried-rice-image.jpg"
+          "image": "https://cdn.sanity.io/images/2r0kdewr/production/79e84384f627d14caeb6e9366d1bd39b08d50ba2-500x375.jpg"
         },
         {
           "id": "chicken-chop-suey",
@@ -124,7 +124,7 @@
           "description": "Stir-fried chicken and vegetables in tangy sauce.",
           "price": 180,
           "type": "non-veg",
-          "image": "path-to-chicken-chop-suey-image.jpg"
+          "image": "https://www.smalltownwoman.com/wp-content/uploads/2021/06/Chicken-Chop-Suey-Recioe-Card.jpg"
         },
         {
           "id": "spring-rolls-chinese",
@@ -132,7 +132,7 @@
           "description": "Crunchy rolls with Chinese vegetables filling.",
           "price": 100,
           "type": "veg",
-          "image": "path-to-chinese-spring-rolls-image.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgjVBlOKPYOcNfYK8cccuy9BLvS7Y-gK1Jhg&s"
         },
         {
           "id": "chili-chicken",
@@ -140,7 +140,7 @@
           "description": "Boneless chicken cooked in spicy tangy sauce.",
           "price": 200,
           "type": "non-veg",
-          "image": "path-to-chili-chicken-image.jpg"
+          "image": "https://www.teaforturmeric.com/wp-content/uploads/2024/06/Chilli-Chicken-Recipe.jpg"
         }
       ]
     },
@@ -156,7 +156,7 @@
           "description": "Crispy rice pancake, served with chutney and sambar.",
           "price": 90,
           "type": "veg",
-          "image": "path-to-dosa-image.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6LUswYhEpzZPjXeGJNtdUKPYeCuGz0JoBQ&s"
         },
         {
           "id": "idli-sambar",
@@ -164,7 +164,7 @@
           "description": "Steamed rice cakes served with lentil soup.",
           "price": 70,
           "type": "veg",
-          "image": "path-to-idli-sambar-image.jpg"
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/04/idli-recipe-500x500.jpg"
         },
         {
           "id": "veg-biryani",
@@ -172,7 +172,7 @@
           "description": "Spicy rice dish with mixed vegetables.",
           "price": 140,
           "type": "veg",
-          "image": "path-to-veg-biryani-image.jpg"
+          "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/09/veg-biryani-vegetable-biryani.webp"
         },
         {
           "id": "chicken-curry-rice",
@@ -180,7 +180,7 @@
           "description": "Spicy chicken curry served with steamed rice.",
           "price": 220,
           "type": "non-veg",
-          "image": "path-to-chicken-curry-rice-image.jpg"
+          "image": "https://www.foodiaq.com/wp-content/uploads/2024/02/chicken-curry-and-rice-scaled.jpg"
         }
       ]
     },
@@ -196,7 +196,7 @@
           "description": "Deep fried dough balls soaked in sweet syrup.",
           "price": 50,
           "type": "veg",
-          "image": "path-to-gulab-jamun-image.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU1-nAC5iLJYDuZJhyK0UG11gxTBBOJz02Cg&s"
         },
         {
           "id": "rasgulla",
@@ -204,7 +204,7 @@
           "description": "Soft and spongy Bengali dessert soaked in sugar syrup.",
           "price": 40,
           "type": "veg",
-          "image": "path-to-rasgulla-image.jpg"
+          "image": "https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/rasgulla.png"
         },
         {
           "id": "ice-cream",
@@ -212,7 +212,7 @@
           "description": "Chilled dessert available in multiple flavors.",
           "price": 60,
           "type": "veg",
-          "image": "path-to-ice-cream-image.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg/640px-Ice_cream_with_whipped_cream%2C_chocolate_syrup%2C_and_a_wafer_%28cropped%29.jpg"
         },
         {
           "id": "gajar-ka-halwa",
@@ -220,7 +220,7 @@
           "description": "Sweet carrot pudding garnished with dry fruits.",
           "price": 80,
           "type": "veg",
-          "image": "path-to-gajar-ka-halwa-image.jpg"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cuisine_%28268%29_44.jpg/640px-Cuisine_%28268%29_44.jpg"
         }
       ]
     },
@@ -236,7 +236,7 @@
           "description": "Aromatic rice cooked with seasonal vegetables and spices.",
           "price": 180,
           "type": "veg",
-          "image": "path-to-veg-biryani-image.jpg"
+          "image": "https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg"
         },
         {
           "id": "chicken-biryani",
@@ -244,7 +244,7 @@
           "description": "Spiced rice with tender chicken pieces.",
           "price": 250,
           "type": "non-veg",
-          "image": "path-to-chicken-biryani-image.jpg"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoIycguxFgTpIN3L00tYQhJ2WkypXj5w_QkQ&s"
         },
         {
           "id": "mutton-biryani",
@@ -252,7 +252,7 @@
           "description": "Flavorful rice dish with tender mutton cooked in spices.",
           "price": 300,
           "type": "non-veg",
-          "image": "path-to-mutton-biryani-image.jpg"
+          "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg"
         }
       ]
     }

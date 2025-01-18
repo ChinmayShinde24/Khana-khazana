@@ -18,7 +18,7 @@ const Menu = () => {
       setCart(updateCart);
     } else {
       setCart([...cart, { ...item, quantity: 1 }]);
-      // alert(`${item.name} added to cart`);
+      alert(`${item.name} added to cart`);
     }
   };
 

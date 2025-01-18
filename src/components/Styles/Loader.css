@@ -1,4 +1,4 @@
-/* Loader Styling */
+
 .loader-container {
   position: fixed;
   top: 0;
@@ -9,10 +9,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure loader is always on top */
+  z-index: 1000;
 }
 
-/* Empty Cart Styling */
+
 .empty-cart {
   display: flex;
   justify-content: center;

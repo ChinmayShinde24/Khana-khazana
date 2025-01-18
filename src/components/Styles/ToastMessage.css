@@ -1,17 +1,32 @@
 .toast-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw; /* Full width */
-  height: 100vh; /* Full height */
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  /* width: 100%; */
+  /* height: 100%; */
+  background-color: rgba(255, 255, 255, 0.8);
   display: flex;
-  justify-content: center; /* Center the toast horizontally */
-  align-items: center; /* Center the toast vertically */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-  z-index: 9999; /* Bring to front */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
 }
 
 .toast {
-  width: 80%; /* Make toast element take up 80% of the width */
-  max-width: 600px; /* Set a max-width for better UX */
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

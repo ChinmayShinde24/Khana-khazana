@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Styles/Contact.css';
 import contactImg from '../assets/service.png';
 import ToastMessage from './ToastMessage';
-// import './Styles/ToastMessage.css';
-// import { Toast } from 'react-bootstrap';
+import './Styles/ToastMessage.css';
+import { Toast } from 'react-bootstrap';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,28 +27,34 @@ const Contact = () => {
     const { name, email, text } = formData;
 
     if (name.trim() === '' || name.length < 2) {
-      alert('Name must be at least 2 characters long and cannot be empty.');
-      // setToastData({
-      //   show: true,
-      //   type: 'danger',
-      //   message: 'Name must be at least 2 characters long and cannot be empty',
-      // });
+      // alert('Name must be at least 2 characters long and cannot be empty.');
+      setToastData({
+        show: true,
+        type: 'error',
+        message: 'Name must be at least 2 characters long and cannot be empty',
+      });
       return;
     }
 
     if (!emailRegex.test(email)) {
-      alert('Please enter valid email address');
-      // setToastData({
-      //   show: true,
-      //   type: 'danger',
-      //   message: 'Please enter valid email address',
-      // });
+      // alert('Please enter valid email address');
+      setToastData({
+        show: true,
+        type: 'error',
+        message: 'Please enter valid email address',
+      });
       return;
     }
 
+    setToastData({
+      show: true,
+      type: 'success',
+      message: 'Your form has been successfully submitted',
+    });
+
     console.log('Form submitted: ', { name, email, text });
 
-    setToastData(true);
+
 
     setFormData({
       name: '',
@@ -113,7 +119,12 @@ const Contact = () => {
           <img src={contactImg} alt="24/7 Service" className="service-image" />
         </div>
       </div>
-      {/* <ToastMessage show={toastData} onClose={() => setToastData(false)} /> */}
+      <ToastMessage
+        show={toastData.show}
+        onClose={() => setToastData({ ...toastData, show: false })}
+        type={toastData.type}
+        message={toastData.message}
+      />
     </div>
   );
 };

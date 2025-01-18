@@ -1,14 +1,9 @@
 import React, { useContext } from 'react';
-import {
-  Container,
-  Nav,
-  Navbar,
-  NavDropdown,
-  Offcanvas,
-} from 'react-bootstrap';
+import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import food from '../assets/food.png';
 import { Link } from 'react-router';
 import { CartContext } from '../context/CartContext';
+import './Styles/Navigation.css';
 
 const Navigation = () => {
   const { cart } = useContext(CartContext);
@@ -16,7 +11,7 @@ const Navigation = () => {
   const expand = 'lg';
 
   return (
-    <Navbar expand={expand} className="bg-body-tertiary mb-3 b">
+    <Navbar expand={expand} className="navbar bg-body-tertiary mb-3 b">
       <Container fluid>
         <Navbar.Brand href="#">
           <img
@@ -29,17 +24,18 @@ const Navigation = () => {
               borderRadius: '50%',
             }}
           />
-          Khana-Khazana
+          <span className="co-title text-1"> Khana-Khazana</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
         <Navbar.Offcanvas
+          className="hamburger"
           id={`offcanvasNavbar-expand-${expand}`}
           aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
           placement="end"
         >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-              Offcanvas
+              <span className="co-title"> Khana-Khazana</span>
             </Offcanvas.Title>
           </Offcanvas.Header>
           <Offcanvas.Body>
