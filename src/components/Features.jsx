@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <section className="features">
       <div className="feature">
-        <img src={delivery} alt="" />
+        <img className="feature-img" src={delivery} alt="" />
         <div className="feature-content">
           <h3>Home Delivery</h3>
           <p>
@@ -19,7 +19,7 @@ const Features = () => {
       </div>
 
       <div className="feature">
-        <img src={discount} alt="" />
+        <img className="feature-img" src={discount} alt="" />
         <div className="feature-content">
           <h3>Home Delivery</h3>
           <p>
@@ -30,7 +30,7 @@ const Features = () => {
       </div>
 
       <div className="feature">
-        <img src={fresh} alt="" />
+        <img className="feature-img" src={fresh} alt="" />
         <div className="feature-content">
           <h3>Home Delivery</h3>
           <p>
